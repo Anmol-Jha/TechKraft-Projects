@@ -1,0 +1,21 @@
+from pyspark.sql.functions import sha2, col
+from pyspark.sql import SparkSession
+
+# Start Spark session
+spark = SparkSession.builder.getOrCreate()
+
+# Load CSV into DataFrame
+df = spark.read.csv("/FileStore/tables/customers_100-2.csv", header=True, inferSchema=True)
+
+# Identify PII columns
+pii_columns = ["First Name", "Last Name", "Email", "Phone 1", "Phone 2", "Customer Id"]
+
+# Anonymize PII columns using SHA-256 hash
+for col_name in pii_columns:
+    df = df.withColumn(f"{col_name}_anon", sha2(col(col_name).cast("string"), 256))
+
+# Drop original PII columns
+df_anonymized = df.drop(*pii_columns)
+
+# Display anonymized DataFrame
+display(df_anonymized)
