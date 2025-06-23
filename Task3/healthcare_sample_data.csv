@@ -1,0 +1,11 @@
+PatientID,FirstName,LastName,DOB,Gender,Phone,Email,Diagnosis,AdmissionDate,DischargeDate
+P001,John,Smith,1985-06-01,Male,555-1234,john.smith@example.com,Hypertension,2023-01-15,2023-01-20
+P002,Jane,Doe,1990-07-15,Female,555-2345,jane.doe@example.com,Diabetes,2023-02-20,2023-02-25
+P003,Alice,Johnson,1978-03-22,Female,555-3456,alice.j@example.com,Asthma,2023-03-05,2023-03-10
+P004,Bob,Lee,1982-11-30,Male,555-4567,bob.lee@example.com,Arthritis,2023-04-10,2023-04-15
+P005,Carol,Brown,1995-01-10,Female,555-5678,carol.b@example.com,Migraine,2023-05-12,2023-05-17
+P006,David,Wilson,1970-09-14,Male,555-6789,david.w@example.com,Depression,2023-06-22,2023-06-27
+P007,Eva,Taylor,2000-12-05,Female,555-7890,eva.t@example.com,Anxiety,2023-07-30,2023-08-04
+P008,Frank,Anderson,1988-08-18,Male,555-8901,frank.a@example.com,Obesity,2023-08-18,2023-08-23
+P009,Grace,Thomas,1992-04-25,Female,555-9012,grace.t@example.com,Back Pain,2023-09-25,2023-09-30
+P010,Hank,White,1983-02-14,Male,555-0123,hank.w@example.com,Allergy,2023-10-10,2023-10-15

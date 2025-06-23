@@ -1,0 +1,4 @@
+record_id,name,email,phone,ssn,dob,address
+1,John Doe,john.doe@example.com,123-456-7890,123-45-6789,1987-06-25,"123 Elm St, New York, NY"
+2,Jane Smith,jane.smith@gmail.com,(555) 123-4567,987-65-4321,1992-11-12,"456 Oak St, Boston, MA"
+3,Alice Johnson,alice.j@company.com,987.654.3210,111-22-3333,1975-03-03,"789 Pine St, Chicago, IL"
